@@ -15,7 +15,7 @@ class PCHBA(ABEnc):
         self.k = k
         self.index = k
         self.i = 5  
-        self.j = 5  
+        self.j = 5  # we assume i = j, equals to identity-based encryption.
         self.msk = {}
         self.mpk = {}
         self.pk = None
