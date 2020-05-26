@@ -9,7 +9,7 @@ def main():
     Test_Setup = False
     Test_KeyGen = False
     Test_Hash = False
-    Test_Adapt = True
+    Test_Adapt = False
     Test_Verify = False
     Test_Judge = False
 
@@ -17,7 +17,7 @@ def main():
     pairing_group = PairingGroup('MNT224')
     
     # AC17 CP-ABE under DLIN (2-linear)
-    pchba = PCHBA(pairing_group, 2, 10)	# k = 10 (depth of the tree)
+    pchba = PCHBA(pairing_group, 2, 10)	# e.g., k = 10 (depth of the tree)
 
     # run the set up
     (sk, pk, msk, mpk) = pchba.setup()
