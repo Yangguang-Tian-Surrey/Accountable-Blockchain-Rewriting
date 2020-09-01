@@ -11,7 +11,10 @@ We list some points regarding our source code: 1) user's identity in HIBE is ass
 
 
 # Instructions
-1. Import the VM [Ubuntu18-04-4.ova] (using Virtualbox).
+1. Import the VM [Ubuntu18-04-4.ova] (using Virtualbox). 
+
+	https://drive.google.com/file/d/1oehuRBEXThEbvFlCJe173SwlnznY8X1f/view?usp=sharing
+	
 2. Start the VM.
 3. Login password for the user "auth" is 123456
 4. Open a terminal and go to the directory ~/Desktop/PCHBA
