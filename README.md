@@ -22,6 +22,7 @@ We list some points regarding our source code: 1) user's identity in HIBE is ass
 
 # Development environment setup for manual configuration
 [install dependencies]
+
 sudo apt-get update
 sudo apt-get install M4
 sudo apt-get install flex
